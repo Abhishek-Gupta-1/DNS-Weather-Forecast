@@ -17,7 +17,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const weatherData = await response.json();
 
     const temp = weatherData.main.temp;
-    const description = weatherData.weather[0].description;
+    const description = weatherData.weather[0].main;
     const icon = weatherData.weather[0].icon; 
     const iconURL = `http://openweathermap.org/img/wn/${icon}@2x.png`;
 
