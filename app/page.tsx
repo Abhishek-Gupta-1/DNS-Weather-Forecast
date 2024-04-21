@@ -10,9 +10,7 @@ export default function Home() {
   const whiteSpaceStyle = {
     backdropFilter: 'blur(15px)'
   };
-  const filter = {
-    backdropFilter: 'blur(25px)'
-  };
+
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
