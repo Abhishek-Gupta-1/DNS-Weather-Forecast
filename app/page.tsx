@@ -31,7 +31,7 @@ export default function Home() {
     <div className='background'>
       <Navbar />
       <div className='justify-center text-center font-mono '>
-        <h1 className=' text-7xl font-black text-yellow-400 '>Welcome to DNS Weather Forecast</h1>
+        <h1 className=' text-7xl font-black text-yellow-400 '>Welcome to My Weather Forecast</h1>
         <div className="flex justify-center items-center">
           <div style={whiteSpaceStyle} className='max-w-2xl mt-12 rounded h-40'>
             <h1 className='text-5xl font-extrabold pb-6 pt-6 text-white'>Enter Your City Name</h1>
